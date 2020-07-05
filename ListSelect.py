@@ -142,7 +142,7 @@ class Picker(object):
                 self._vertexesNode = node
 
     def _castDetail(self, detail):
-	return coin.cast(detail, str(detail.getTypeId().getName()))
+        return coin.cast(detail, str(detail.getTypeId().getName()))
 
     def _getViewport(self):
         return self._getRenderManager().getViewportRegion()
